@@ -7,7 +7,7 @@ public class loginPositive2 extends HybridBase {
     public static void main(String[] args) throws MalformedURLException {
         AndroidDriver<AndroidElement> driver = capabilities("real");
 
-        //Positive Case Scenario 1
+        //Positive Case Scenario 2
         //Scenario: Login by using alternative account
         driver.findElementByXPath("(//android.widget.ImageView)[2]").click();
         driver.findElementByXPath("//android.widget.TextView[@text='Log In']").click();
