@@ -1,0 +1,11 @@
+How to run:
+- Install all prerequisite
+  - appium
+  - selenium
+  - node.js
+  - intellij.idea
+  - java
+- run appium
+- Open src/main/java
+- Open one of the class file
+- Right click inside editor and click run
